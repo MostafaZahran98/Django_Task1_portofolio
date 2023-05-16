@@ -1,0 +1,10 @@
+<div class="container">
+  <form method="POST">
+    <fieldset>
+      <legend>Courses Table</legend>
+      {% csrf_token %}
+      {{ form1.as_p }}
+      <button type="submit" class="btn btn-primary">Submit</button>
+   
+    </form>
+</div>
